@@ -321,7 +321,7 @@ export default function App() {
 
       <header style={styles.header}>
         <div style={styles.headerLeft}>
-          <span style={styles.eyebrow}>Bill Caskey · billcaskey.com</span>
+          <span style={styles.eyebrow}>Bill Caskey</span>
           <h1 style={styles.headerTitle}>Asset Leverage Audit</h1>
         </div>
         <div style={styles.headerRight}>
