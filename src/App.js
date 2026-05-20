@@ -6,16 +6,16 @@ const LIGHT_NAVY = '#1A2E45';
 const MUTED = '#8A9BB0';
 
 const questions = [
-  { key: 'firstName', label: 'First Name', placeholder: 'e.g. Sarah' },
-  { key: 'roleTitle', label: 'Role / Title', placeholder: 'e.g. VP of Sales, Account Executive, Business Owner' },
-  { key: 'industry', label: 'Industry & What They Sell', placeholder: 'e.g. SaaS to mid-market HR teams' },
+  { key: 'firstName', label: 'Your First Name', placeholder: 'e.g. Sarah' },
+  { key: 'roleTitle', label: 'Your Role / Title', placeholder: 'e.g. VP of Sales, Account Executive, Business Owner' },
+  { key: 'industry', label: 'Your Industry & What You Sell', placeholder: 'e.g. SaaS to mid-market HR teams' },
   { key: 'yearsInSales', label: 'Years in Sales / Business Development', placeholder: 'e.g. 8 years' },
-  { key: 'currentChallenge', label: 'Biggest Current Sales Challenge', placeholder: "What's the #1 thing stopping more revenue right now?" },
-  { key: 'leadSources', label: 'How They Currently Generate Leads', placeholder: 'e.g. cold outreach, referrals, events, inbound...' },
-  { key: 'contentCreated', label: 'Content, IP, or Frameworks They\'ve Created', placeholder: 'Presentations, processes, videos, guides, case studies...' },
-  { key: 'keyRelationships', label: 'Their Best Client / Partner Relationships', placeholder: 'Who are the best people in their network they could leverage?' },
-  { key: 'techTools', label: 'Technology & Tools They Use', placeholder: 'CRM, LinkedIn, email tools, AI tools, automation...' },
-  { key: 'biggestTimeWaste', label: 'Biggest Time Wasters Each Week', placeholder: 'e.g. manual follow-up, CRM admin, prospecting from scratch...' },
+  { key: 'currentChallenge', label: 'Your Biggest Current Sales Challenge', placeholder: "What's the #1 thing stopping more revenue right now?" },
+  { key: 'leadSources', label: 'How You Currently Generate Leads', placeholder: 'e.g. cold outreach, referrals, events, inbound...' },
+  { key: 'contentCreated', label: 'Content, IP, or Frameworks You\'ve Created', placeholder: 'Presentations, processes, videos, guides, case studies...' },
+  { key: 'keyRelationships', label: 'Your Best Client / Partner Relationships', placeholder: 'Who are the best people in your network you could leverage more?' },
+  { key: 'techTools', label: 'Technology & Tools You Use', placeholder: 'CRM, LinkedIn, email tools, AI tools, automation...' },
+  { key: 'biggestTimeWaste', label: 'Your Biggest Time Wasters Each Week', placeholder: 'e.g. manual follow-up, CRM admin, prospecting from scratch...' },
   { key: 'whatIsWorking', label: 'What\'s Working (Even a Little)', placeholder: 'Any wins, patterns, or activities that are showing results...' },
 ];
 
@@ -332,11 +332,12 @@ export default function App() {
 
       <main style={styles.main}>
         <div style={styles.intro} className="no-print">
-          <p style={styles.sectionLabel}>Live Webinar Tool</p>
-          <h2 style={styles.introTitle}>Fill in as you interview your hot seat volunteer.</h2>
+          <p style={styles.sectionLabel}>Your Personal Audit</p>
+          <h2 style={styles.introTitle}>You Already Have Everything You Need. Let's Find It.</h2>
           <p style={styles.introSub}>
-            Type their answers into each field during the live session. Hit Generate when you're ready —
-            the AI will produce their personalized Asset Leverage Plan in real time.
+            Take 5–7 minutes to fill in each field below. Don't overthink it — first answers are usually
+            the right ones. When you're done, hit Generate and the AI will build your personalized
+            Asset Leverage Plan based on exactly what you share.
           </p>
         </div>
 
